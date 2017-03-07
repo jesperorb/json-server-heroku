@@ -1,0 +1,17 @@
+{
+  "name": "fmdb",
+  "version": "1.0.0",
+  "description": "Simple database for movies to deploy to heroku",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "keywords": [
+    "json-server, heroku"
+  ],
+  "author": "Jesper Orb",
+  "license": "ISC",
+  "dependencies": {
+    "json-server": "^0.9.5"
+  }
+}
