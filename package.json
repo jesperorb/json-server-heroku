@@ -1,13 +1,14 @@
 {
-  "name": "fmdb",
+  "name": "json-server-heroku",
   "version": "1.0.0",
-  "description": "Simple database for movies to deploy to heroku",
+  "description": "Simple json-base database to deploy to Heroku",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
+    "dev": ""
   },
   "keywords": [
-    "json-server, heroku"
+    "json-server,heroku, node, REST API"
   ],
   "author": "Jesper Orb",
   "license": "ISC",
