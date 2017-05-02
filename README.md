@@ -4,6 +4,20 @@
 
 Heroku is a free hosting service for hosting small projects. Easy setup and deploy from the command line via _git_. The cons are that your app will have to sleep a couple of hours every day on the free plan.
 
+###### Pros
+
+* Easy setup
+* Free
+
+###### Cons
+
+* App has to sleep a couple of hours every day.
+* "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
+
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
+
+---
+
 ### Install Heroku
 
 1. Create an account on <br/>[https://heroku.com](https://heroku.com)
@@ -19,7 +33,7 @@ heroku login
 
 1 . Clone this repo
 
-2 . Change `db.json` to your own content and then `commit` your changes to git.
+2 . Change `db.json` to your own content according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git.
 
 3 . Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
 ```bash
@@ -36,9 +50,33 @@ git push heroku master
 heroku open
 ```
 
+6 . For debugging if something went wrong:
+```bash
+heroku logs --tail
+```
+
+---
+
+#### How it works
+
+Heroku will look for a startup-script, this is by default `npm start` so make sure you have that in your `package.json` (assuming your script is called `server.js`):
+```json
+ "scripts": {
+    "start" : "node server.js"
+ }
+```
+
+You also have to make changes to the port, you can't hardcode a dev-port. But you can reference herokus port. So the code will have the following:
+```js
+const port = process.env.PORT || 4000;
+```
+
 ---
 
 # Deploy `json-server` to _Microsoft Azure_
+
+<img align="right" width="100px" height="auto" src="https://docs.microsoft.com/en-us/azure/media/index/azure-germany.svg" alt="Azure">
+
 
 You can also use _Microsoft Azure_ to deploy a smaller app for free to the Azure platform. The service is not as easy as _Heroku_ and you might go insane because the documentation is really really bad at some times and it's hard to troubleshoot.
 
