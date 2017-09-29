@@ -5,7 +5,7 @@
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
-    "dev": ""
+    "dev": "nodemon server.js"
   },
   "keywords": [
     "json-server,heroku, node, REST API"
@@ -13,6 +13,6 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.9.6"
+    "json-server": "^0.12.0"
   }
 }

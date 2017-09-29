@@ -1,8 +1,41 @@
-# Deploy `json-server` to _Heroku_
+# Deploy `json-server` to `{{ free hosting site }}`
+
+* [**Create your database**](#create-your-database)
+* [Deploy to **Heroku**](#deploy-to-heroku)
+* [Deploy to **now**](#deploy-to-now)
+* [Deploy to **Azure**](#deploy-to-azure)
+
+
+## Create your database
+
+1 . Clone this repo to anywhere on your computer.
+
+2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git.
+
+_this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
+```json
+{
+  "posts":[
+    {
+      "id" : 0,
+      "title": "First post!",
+      "content" : "My first content!"
+    }
+  ]
+}
+
+
+```
+
+3. `git add` and `git commit` changes! Now you are ready for deployment
+
+---
+
+## Deploy to **Heroku**
 
 <img align="right" width="100px" height="auto" src="https://cdn.worldvectorlogo.com/logos/heroku.svg" alt="Heroku">
 
-Heroku is a free hosting service for hosting small projects. Easy setup and deploy from the command line via _git_. The cons are that your app will have to sleep a couple of hours every day on the free plan.
+Heroku is a free hosting service for hosting small projects. Easy setup and deploy from the command line via _git_.
 
 ###### Pros
 
@@ -14,43 +47,37 @@ Heroku is a free hosting service for hosting small projects. Easy setup and depl
 * App has to sleep a couple of hours every day.
 * "Powers down" after 30 mins of inactivity. Starts back up when you visit the site but it takes a few extra seconds. Can maybe be solved with [**Kaffeine**](http://kaffeine.herokuapp.com/)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy)
-
 ---
 
 ### Install Heroku
 
-1. Create an account on <br/>[https://heroku.com](https://heroku.com)
-2. Install the Heroku CLI on your computer: <br/>[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+1 . [Create your database](#create-your-database)
 
-3. Connect the Heroku CLI to your account by writing the following command in your terminal and follow the instructions on the command line:
+2 . Create an account on <br/>[https://heroku.com](https://heroku.com)
+
+3 . Install the Heroku CLI on your computer: <br/>[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)
+
+4 . Connect the Heroku CLI to your account by writing the following command in your terminal and follow the instructions on the command line:
 ```bash
 heroku login
 ```
 
-
-### Create the project
-
-1 . Clone this repo
-
-2 . Change `db.json` to your own content according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git.
-
-3 . Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
+5 . Then create a remote heroku project, kinda like creating a git repository on GitHub. This will create a project on Heroku with a random name. If you want to name your app you have to supply your own name like `heroku create project-name`:
 ```bash
-heroku create
+heroku create my-cool-project
 ```
 
-4 . Push your app to __Heroku__ (you will see a wall of code)
+6 . Push your app to __Heroku__ (you will see a wall of code)
 ```bash
 git push heroku master
 ```
 
-5 . Visit your newly create app by opening it via heroku:
+7 . Visit your newly create app by opening it via heroku:
 ```bash
 heroku open
 ```
 
-6 . For debugging if something went wrong:
+8 . For debugging if something went wrong:
 ```bash
 heroku logs --tail
 ```
@@ -73,10 +100,34 @@ const port = process.env.PORT || 4000;
 
 ---
 
-# Deploy `json-server` to _Microsoft Azure_
+## Deploy to **now**
+
+1 . [Create your database](#create-your-database)
+
+2 . Install now cli-tool globally
+```bash
+npm install -g now
+```
+
+3 . Run the `now` command in this folder/repo where your project is. If you run it for the first time, you will be prompted to login, after login, run the command again:
+```
+now --public
+```
+_`--public` is to skip the promt telling you that you will open source your project if you deploy it to now_
+
+4 . The URL will be copied automatically and you can just paste it into your browser.
+
+5. **Optional**: Rename the deployment:
+```bash
+now alias https://your-deployed-name.now.sh new-name
+```
+_first argument is the deployed site, second argument is the new name to give it_
+
+---
+
+## Deploy to **Azure**
 
 <img align="right" width="100px" height="auto" src="https://docs.microsoft.com/en-us/azure/media/index/azure-germany.svg" alt="Azure">
-
 
 You can also use _Microsoft Azure_ to deploy a smaller app for free to the Azure platform. The service is not as easy as _Heroku_ and you might go insane because the documentation is really really bad at some times and it's hard to troubleshoot.
 
@@ -100,7 +151,7 @@ _You will be prompted to visit a website and paste a confirmation code_
 
 ## Create the project
 
-1 . Clone this repository and `cd` into it.
+1 . [Create your database](#create-your-database)
 
 2 . Create a resource group for your projects, replace the name to whatever you want just be sure to use the same group name in all commands to come. You only have to create the resource group and service plan once, then you can use the same group and plan for all other apps you create if you like.
 
