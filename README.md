@@ -1,5 +1,9 @@
 # Deploy `json-server` to `{{ free hosting site }}`
 
+> Instructions how to the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
+
+<img src="https://raw.githubusercontent.com/typicode/json-server/master/src/server/public/images/json.png" align="right">
+
 * [**Create your database**](#create-your-database)
 * [Deploy to **Heroku**](#deploy-to-heroku)
 * [Deploy to **now**](#deploy-to-now)
@@ -10,7 +14,11 @@
 
 1 . Clone this repo to anywhere on your computer.
 
-2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git.
+```bash
+git clone https://github.com/jesperorb/json-server-heroku.git
+```
+
+2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git. 
 
 _this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
 ```json
@@ -23,11 +31,7 @@ _this example will create `/posts` route , each resource will have `id`, `title`
     }
   ]
 }
-
-
 ```
-
-3. `git add` and `git commit` changes! Now you are ready for deployment
 
 ---
 
