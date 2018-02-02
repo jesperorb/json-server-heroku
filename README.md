@@ -117,7 +117,7 @@ npm install -g now
 ```
 now --public
 ```
-_`--public` is to skip the promt telling you that you will open source your project if you deploy it to now_
+_`--public` is to skip the prompt telling you that you will open source your project if you deploy it to now_
 
 4 . The URL will be copied automatically and you can just paste it into your browser.
 
