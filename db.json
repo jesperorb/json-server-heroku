@@ -1,4 +1,214 @@
 {
+  "widget": {
+    "looks": [
+      {
+        "id": 12316789,
+        "img": [
+        "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+        ],
+        "title": "New styles",
+        "description": "some description",
+        "products": [
+          {
+            "id": 123456789,
+            "img": [
+            "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+            ],
+            "title": "Seersucker Shirt",
+            "description": "100% silk. White, striped in color. Model is 5 '8'' and wears a size IT38",
+            "price": 315.0,
+            "options": [{
+              "name": "size",
+              "values": [
+                "S",
+                "M",
+                "L"
+              ]
+            }, {
+              "name": "color",
+              "values": [
+                "Navy",
+                "Grey"
+              ]
+            }],
+            "variants": [
+              {
+                "id": 123456789,
+                "title": "Navy",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658",
+                "price": 250.0,
+                "option": "Navy"
+              },
+              {
+                "id": 123456789,
+                "title": "Grey",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+                "price": 250.0,
+                "option": "Grey"
+              }
+            ]
+          }
+
+        ]
+      },
+      {
+        "id": 123456789,
+        "img": [
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+        ],
+        "title": "New styles",
+        "description": "some description",
+        "products": [
+          {
+            "id": 123456789,
+            "img": [
+            "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+            ],
+            "title": "Seersucker Shirt",
+            "description": "100% silk. White, striped in color. Model is 5 '8'' and wears a size IT38",
+            "price": 315.0,
+            "options": [{
+              "name": "size",
+              "values": [
+                "S",
+                "M",
+                "L"
+              ]
+            }, {
+              "name": "color",
+              "values": [
+                "Navy",
+                "Grey"
+              ]
+            }],
+            "variants": [
+              {
+                "id": 123456789,
+                "title": "Navy",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658",
+                "price": 250.0,
+                "option": "Navy"
+              },
+              {
+                "id": 123456789,
+                "title": "Grey",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+                "price": 250.0,
+                "option": "Grey"
+              }
+            ]
+          }
+
+        ]
+      }
+      ,{
+        "id": 1231456789,
+        "img": [
+        "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+          "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+        ],
+        "title": "Look 2",
+        "description": "lorem ipsun",
+        "products": [
+          {
+            "id": 1234561789,
+            "img": [
+            "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+            ],
+            "title": "Seersucker Shirt",
+            "description": "100% silk. White, striped in color. Model is 5 '8'' and wears a size IT38",
+            "price": 315.0,
+            "options": [{
+              "name": "size",
+              "values": [
+                "S",
+                "M",
+                "L"
+              ]
+            }, {
+              "name": "color",
+              "values": [
+                "Navy",
+                "Grey"
+              ]
+            }],
+            "variants": [
+              {
+                "id": 123456789,
+                "title": "Navy",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658",
+                "price": 250.0,
+                "option": "Navy"
+              },
+              {
+                "id": 123456789,
+                "title": "Grey",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+                "price": 250.0,
+                "option": "Grey"
+              }
+            ]
+          },
+          {
+            "id": 123456789,
+            "img": [
+            "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-180_grande.jpg?v=1531502661",
+              "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658"
+            ],
+            "title": "Seersucker Shirt",
+            "description": "100% silk. White, striped in color. Model is 5 '8'' and wears a size IT38",
+            "price": 315.0,
+            "options": [{
+              "name": "size",
+              "values": [
+                "S",
+                "M",
+                "L"
+              ]
+            }, {
+              "name": "color",
+              "values": [
+                "Navy",
+                "Grey"
+              ]
+            }],
+            "variants": [
+              {
+                "id": 123456789,
+                "title": "Navy",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-177_grande.jpg?v=1531502658",
+                "price": 250.0,
+                "option": "Navy"
+              },
+              {
+                "id": 123456789,
+                "title": "Grey",
+                "img": "https://cdn.shopify.com/s/files/1/0279/7607/products/MAIN-12-181_grande.jpg?v=1531502664",
+                "price": 250.0,
+                "option": "Grey"
+              }
+            ]
+          }
+        ]
+      }
+    ],
+    "store": {
+      "currency": "USD",
+      "symbol": "$" 
+    }
+  },
   "posts":[
     {
       "id" : 0,
