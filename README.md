@@ -171,13 +171,13 @@ az appservice plan create -n NameOfServicePlan -g NameOfResourceGroup
 
 4 . Create the actual app and supply the service plan and resource group
 ```bash
-az appservice web create -n NameOfApp -g NameOfResourceGroup --plan NameOfServicePlan
+az webapp create -n NameOfApp -g NameOfResourceGroup --plan NameOfServicePlan
 ```
 
 5 . Create deployment details. A git-repo is not created automatically so we have to create it with a command:
 
 ```bash
-az appservice web source-control config-local-git -g NameOfApp -g NameOfResourceGroup
+az webapp deployment source config-local-git -n NameOfApp -g NameOfResourceGroup
 ```
 
 6 . From the command in step 5 you should get a **url** in return. Copy this url and add it as a remote to your local git project, for example:
