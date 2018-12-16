@@ -140,7 +140,7 @@ The **pros** are that on _Azure_ the app **will not be forced to sleep**. It wil
 ## Installation
 
 1 . Create a Microsoft Account that you can use on Azure: </br>
-https://azure.microsoft.com/sv-se/
+https://azure.microsoft.com/
 
 2 . Install the `azure-cli`: <br/>
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
@@ -193,4 +193,5 @@ git push azure master
 
 You should be prompted to supply a password, this should be the pass to your account. If not, you can choose a different password at your Dashboard for Azure: **[https://portal.azure.com/](https://portal.azure.com/)**
 
-Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment.
+Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment:<br>
+https://docs.microsoft.com/en-us/azure/app-service/app-service-deployment-credentials
