@@ -140,7 +140,7 @@ The **pros** are that on _Azure_ the app **will not be forced to sleep**. It wil
 ## Installation
 
 1 . Create a Microsoft Account that you can use on Azure: </br>
-https://azure.microsoft.com/sv-se/
+https://azure.microsoft.com/
 
 2 . Install the `azure-cli`: <br/>
 https://docs.microsoft.com/en-us/cli/azure/install-azure-cli
@@ -171,13 +171,13 @@ az appservice plan create -n NameOfServicePlan -g NameOfResourceGroup
 
 4 . Create the actual app and supply the service plan and resource group
 ```bash
-az appservice web create -n NameOfApp -g NameOfResourceGroup --plan NameOfServicePlan
+az webapp create -n NameOfApp -g NameOfResourceGroup --plan NameOfServicePlan
 ```
 
 5 . Create deployment details. A git-repo is not created automatically so we have to create it with a command:
 
 ```bash
-az appservice web source-control config-local-git -g NameOfApp -g NameOfResourceGroup
+az webapp deployment source config-local-git -n NameOfApp -g NameOfResourceGroup
 ```
 
 6 . From the command in step 5 you should get a **url** in return. Copy this url and add it as a remote to your local git project, for example:
@@ -193,4 +193,5 @@ git push azure master
 
 You should be prompted to supply a password, this should be the pass to your account. If not, you can choose a different password at your Dashboard for Azure: **[https://portal.azure.com/](https://portal.azure.com/)**
 
-Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment.
+Choose **App Services** in the sidebar to the left and the choose your app in the list that appears then go to **Deployment Credentials** to change your password for deployment:<br>
+https://docs.microsoft.com/en-us/azure/app-service/app-service-deployment-credentials
