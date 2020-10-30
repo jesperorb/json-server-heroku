@@ -2,11 +2,8 @@
 
 > Instructions how to deploy the full fake REST API [json-server](https://github.com/typicode/json-server) to various free hosting sites. Should only be used in development purpose but can act as a simpler database for smaller applications.
 
-<img src="https://raw.githubusercontent.com/typicode/json-server/master/src/server/public/images/json.png" align="right">
-
 * [**Create your database**](#create-your-database)
 * [Deploy to **Heroku**](#deploy-to-heroku)
-* [Deploy to **now**](#deploy-to-now)
 * [Deploy to **Azure**](#deploy-to-azure)
 
 
@@ -101,33 +98,6 @@ You also have to make changes to the port, you can't hardcode a dev-port. But yo
 ```js
 const port = process.env.PORT || 4000;
 ```
-
----
-
-## Deploy to **now**
-
-1 . [Create your database](#create-your-database)
-
-2 . Install now cli-tool globally
-```bash
-npm install -g now
-```
-
-3 . Run the `now` command in this folder/repo where your project is. If you run it for the first time, you will be prompted to login, after login, run the command again:
-```
-now --public
-```
-_`--public` is to skip the prompt telling you that you will open source your project if you deploy it to now_
-
-4 . The URL will be copied automatically and you can just paste it into your browser.
-
-5. **Optional**: Rename the deployment:
-```bash
-now alias https://your-deployed-name.now.sh new-name
-```
-_first argument is the deployed site, second argument is the new name to give it_
-
----
 
 ## Deploy to **Azure**
 
