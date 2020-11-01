@@ -9,13 +9,11 @@
 
 ## Create your database
 
-1 . Clone this repo to anywhere on your computer.
+1. Press the green `Use this template`-button in the right corner
+2. Give your new repo a name and press the green `Create repository from template`-button
+3. Clone your newly created repository to your computer
 
-```bash
-git clone https://github.com/jesperorb/json-server-heroku.git
-```
-
-2 . Change `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git. 
+4 . Change the contents of `db.json` to **your own content** according to the [`json-server example`](https://github.com/typicode/json-server#example) and then `commit` your changes to git locally.
 
 _this example will create `/posts` route , each resource will have `id`, `title` and `content`. `id` will auto increment!_
 ```json
