@@ -1,17 +1,44 @@
-{
-  "name": "json-server-deploy",
-  "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "keywords": [
-    "json-server,heroku, node, REST API"
-  ],
-  "author": "Jesper Orb",
-  "license": "ISC",
-  "dependencies": {
-    "json-server": "^0.16.2"
-  }
-}
+[
+   - { 
+	id: 2,
+	name: "Patates",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 3,
+	name: "Domates",
+	isCompleted: false,
+	isArchived: false,
+     },
+    {
+	id: 4,
+	name: "Biber",
+	isCompleted: false,
+	isArchived: false,
+     },
+    { 
+	id: 5,
+	name: "Salatalık",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 6,
+	name: "Elma",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 7,
+	name: "Armut",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 2,
+	name: "Şeftali",
+	isCompleted: false,
+	isArchived: false,
+     },	
+]
