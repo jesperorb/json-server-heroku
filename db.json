@@ -1,16 +1,44 @@
-{
-  "posts":[
+[
+   - { 
+	id: 2,
+	name: "Patates",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 3,
+	name: "Domates",
+	isCompleted: false,
+	isArchived: false,
+     },
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
-}
+	id: 4,
+	name: "Biber",
+	isCompleted: false,
+	isArchived: false,
+     },
+    { 
+	id: 5,
+	name: "Salatalık",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 6,
+	name: "Elma",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 7,
+	name: "Armut",
+	isCompleted: false,
+	isArchived: false,
+     },	
+    { 
+	id: 2,
+	name: "Şeftali",
+	isCompleted: false,
+	isArchived: false,
+     },	
+]
