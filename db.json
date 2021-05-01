@@ -1,5 +1,5 @@
 [
-   - { 
+    { 
 	id: 2,
 	name: "Patates",
 	isCompleted: false,
