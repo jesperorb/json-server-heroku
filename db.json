@@ -1,16 +1,22 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
+      "name": "Sanskar",
+      "contents": "Hello...\n",
+      "id": 2,
+      "likes": 0
+    },
     {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
+      "name": "Sanskar",
+      "contents": "jas.dkjnd,s",
+      "likes": 0,
+      "id": 3
+    },
+    {
+      "name": "Sanskar",
+      "contents": "wshats",
+      "likes": 0,
+      "id": 4
     }
   ]
 }
