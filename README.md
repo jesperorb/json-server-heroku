@@ -4,8 +4,8 @@
 
 * [**Create your database**](#create-your-database)
 * [Deploy to **Heroku**](#deploy-to-heroku)
+* [Deploy to **Glitch**](#deploy-to-glitch)
 * [Deploy to **Azure**](#deploy-to-azure)
-
 
 ## Create your database
 
@@ -96,6 +96,17 @@ You also have to make changes to the port, you can't hardcode a dev-port. But yo
 ```js
 const port = process.env.PORT || 4000;
 ```
+
+## Deploy to Glitch
+
+Not tested 100%. Same as with Heroku, will sleep after a while.
+
+1. Register for [Glitch](https://glitch.com/) or go to [Glitch/edit](https://glitch.com/)
+2. Click **New Project**
+3. Click **Import from GitHub**
+4. Paste `https://github.com/jesperorb/json-server-heroku.git` into the URL-input and click OK.
+5. Wait for it to setup
+6. Press **Share**-button to get your URL to live site. It should be something for example like: `https://fallabe-pie-snake.glitch.me`. And your DB will be at `https://fallabe-pie-snake.glitch.me/posts`
 
 ## Deploy to **Azure**
 
