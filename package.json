@@ -12,6 +12,6 @@
   "author": "Jesper Orb",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.16.2"
+    "json-server": "^0.17.0"
   }
 }
