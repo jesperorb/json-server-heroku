@@ -1,16 +1,11 @@
-{
-  "posts":[
-    {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
-    }
-  ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+{   "users":[
+  {
+  "id": "1",
+  "name": "sefa enes ergin",
+  "title": "software eng.",
+  "workPlace": "oyak renault",
+  "email": "sefa@ergin.com",
+  "address": "maldive"
+  }
+]
 }
