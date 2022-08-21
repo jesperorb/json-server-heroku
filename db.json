@@ -1,16 +1,20 @@
 {
-  "posts":[
+  "posts": [
     {
-      "id" : 0,
-      "title": "First post!",
-      "content" : "My first content!"
+      "id": "1",
+      "title": "Chavku",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20210323/QM95/6059e5977cdb8c1f146b769a/netplay_khaki_shirt_with_band_collar.jpg",
+      "price": "1200"
+    },
+    {
+      "id": "2",
+      "title": "casuel",
+      "image": "https://assets.ajio.com/medias/sys_master/root/20220513/AhGv/627e22c9f997dd03e2b9a400/the_bear_house_maroon_checked_slim_fit_shirt_with_patch_pocket.jpg",
+      "price": "1200"
     }
   ],
-  "comments" : [
-    {
-      "id": 0,
-      "content": "Wow such content!",
-      "username": "zero_cool"
-    }
-  ]
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
 }

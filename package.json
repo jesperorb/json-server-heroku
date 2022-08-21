@@ -1,17 +1,15 @@
 {
-  "name": "json-server-deploy",
+  "name": "practice-crud",
   "version": "1.0.0",
-  "description": "Simple json database to deploy to the host of your choice",
-  "main": "server.js",
+  "description": "Creating Crud",
+  "main": "json_server.js",
   "scripts": {
-    "start": "node server.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [
-    "json-server,heroku, node, REST API"
-  ],
-  "author": "Jesper Orb",
+  "author": "",
   "license": "ISC",
   "dependencies": {
     "json-server": "^0.17.0"
-  }
+  },
+  "devDependencies": {}
 }
